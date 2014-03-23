@@ -4,3 +4,7 @@ body {
 	background-repeat: no-repeat;
 	padding-top: 70px;
 }
+
+#videos iframe {
+	padding: 15px 0px;
+}
