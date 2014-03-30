@@ -3,12 +3,22 @@
 	<head>
 		<title>Charlotte Area Transit System</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
 		<link href="css/style.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+		<script src="js/_main.js"></script>
 		<script src="js/script.js"></script>
 	</head>
 	<body>
+	<div id="preload">
+	       	<img src="img/bcg_slide-1.jpg">
+	       	<img src="img/bcg_slide-2.jpg">
+	       	<img src="img/bcg_slide-3.jpg">
+	       	<img src="img/bcg_slide-4.jpg">
+       	</div>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -54,7 +64,52 @@
 		</nav>
 		<div id="content" class="container-fluid">
 			<div class="row">
-				
+				<div class="col-xs-12">
+					<main>
+						<section id="slide-1" class="homeSlide">
+							<div class="bcg"
+								data-center="background-position: 50% 0px;"
+								data-top-bottom="backgrond-position: 50% -100px;"
+								data-anchor-target="#slide-1">
+								<div class="hsContainer">
+									<div class="hsContent"
+										data-center="bottom: 200px; opacity:1;"
+										data-top="bottom: 1200px; opacity:0;"
+										data-anchor-target="#slide-1 h2">
+										<h2>Simple paralllax scrolling is...</h2>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section id="slide-1" class="homeSlide">
+							<div class="bcg">
+								<div class="hsContainer">
+									<div class="hsContent">
+										<h2>Simple paralllax scrolling is...</h2>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section id="slide-1" class="homeSlide">
+							<div class="bcg">
+								<div class="hsContainer">
+									<div class="hsContent">
+										<h2>Simple paralllax scrolling is...</h2>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section id="slide-1" class="homeSlide">
+							<div class="bcg">
+								<div class="hsContainer">
+									<div class="hsContent">
+										<h2>Simple paralllax scrolling is...</h2>
+									</div>
+								</div>
+							</div>
+						</section>
+					</main>
+				</div>
 			</div>
 		</div>
 	</body>
