@@ -1,9 +1,11 @@
+/*
 body {
 	background-image: url("../img/lynx_blur.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 70px;
 }
+*/
 
 #videos iframe {
 	margin: 15px 0px;
@@ -12,4 +14,39 @@ body {
 
 #videos {
 	padding-top: 75px;
+}
+
+/* Parallax stuff */
+
+#intro { 
+    background: url("../img/bcg_slide-1.jpg") 50% 0 fixed; 
+    background-size: cover;
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+}
+#home { 
+    background: url("../img/bcg_slide-1.jpg") 50% 0 fixed; 
+    background-size: cover;
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+#about { 
+    background: url("../img/bcg_slide-1.jpg") 50% 0 fixed;
+    background-size: cover;
+
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
 }
